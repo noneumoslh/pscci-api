@@ -10,6 +10,26 @@
           </style>
      </head>
      <body>
+          <template>
+  <div class="example">{{ msg }}</div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      msg: 'Hello world!'
+    }
+  }
+}
+</script>
+
+<style>
+.example {
+  color: red;
+}
+</style>
+
           <h1>Cara menggunakan fungsi DOM</h1>
 
           <h2><a id="tampilkansembunyikan" href="#">Tampilkan contoh</a></h2>
